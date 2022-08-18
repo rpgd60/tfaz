@@ -1,0 +1,13 @@
+{
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2": "azurerm_resource_group.res-0",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-test2": "azurerm_linux_virtual_machine_scale_set.res-1",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-test2/virtualMachines/1": "",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Insights/autoscaleSettings/vmss-test2autoscale": "azurerm_monitor_autoscale_setting.res-10",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/loadBalancers/vmss-test2-lb": "azurerm_lb.res-3",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/loadBalancers/vmss-test2-lb/backendAddressPools/bepool": "azurerm_lb_backend_address_pool.res-4",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/loadBalancers/vmss-test2-lb/inboundNatRules/natpool.1": "azurerm_lb_nat_rule.res-5",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/networkSecurityGroups/basicNsgrg-vmss-test2-vnet-nic01": "azurerm_network_security_group.res-6",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/publicIPAddresses/vmss-test2-ip": "azurerm_public_ip.res-7",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/virtualNetworks/rg-vmss-test2-vnet": "azurerm_virtual_network.res-8",
+	"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-vmss-test2/providers/Microsoft.Network/virtualNetworks/rg-vmss-test2-vnet/subnets/default": "azurerm_subnet.res-9"
+}

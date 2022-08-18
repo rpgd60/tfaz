@@ -1,0 +1,31 @@
+azurerm_network_interface_security_group_association.example: Destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkInterfaces/nic-lifecycle1-dev-westeurope|/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-new-name-for-test]
+azurerm_network_security_rule.icmp: Destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-new-name-for-test/securityRules/nsgr-icmp]
+azurerm_network_security_rule.ssh: Destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-new-name-for-test/securityRules/nsgr-SSH]
+azurerm_network_interface_security_group_association.example: Destruction complete after 2s
+azurerm_network_security_rule.ssh: Still destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-...w-name-for-test/securityRules/nsgr-SSH, 10s elapsed]
+azurerm_network_security_rule.icmp: Still destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-...-name-for-test/securityRules/nsgr-icmp, 10s elapsed]
+azurerm_network_security_rule.icmp: Destruction complete after 11s
+azurerm_network_security_rule.ssh: Still destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-...w-name-for-test/securityRules/nsgr-SSH, 20s elapsed]
+azurerm_network_security_rule.ssh: Destruction complete after 24s
+
+(Creating new NSG)
+azurerm_network_security_group.tfub_nsg: Creating...
+azurerm_network_security_group.tfub_nsg: Creation complete after 5s [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-lifecycle1-dev-westeurope]
+azurerm_network_interface_security_group_association.example: Creating...
+
+azurerm_network_security_rule.ssh: Creating...
+azurerm_network_security_rule.icmp: Creating...
+azurerm_network_security_rule.ssh: Still creating... [10s elapsed]
+azurerm_network_security_rule.icmp: Still creating... [10s elapsed]
+azurerm_network_interface_security_group_association.example: Still creating... [10s elapsed]
+azurerm_network_security_rule.ssh: Creation complete after 10s [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-lifecycle1-dev-westeurope/securityRules/nsgr-SSH]
+azurerm_network_interface_security_group_association.example: Still creating... [20s elapsed]
+azurerm_network_security_rule.icmp: Still creating... [20s elapsed]
+azurerm_network_security_rule.icmp: Creation complete after 25s [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-lifecycle1-dev-westeurope/securityRules/nsgr-icmp]
+azurerm_network_interface_security_group_association.example: Still creating... [30s elapsed]
+azurerm_network_interface_security_group_association.example: Creation complete after 31s [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkInterfaces/nic-lifecycle1-dev-westeurope|/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-lifecycle1-dev-westeurope]
+
+(Destroying old NSG)
+azurerm_network_security_group.tfub_nsg (deposed object be1cf169): Destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-lifecycle1-dev-westeurope/providers/Microsoft.Network/networkSecurityGroups/nsg-new-name-for-test]
+azurerm_network_security_group.tfub_nsg: Still destroying... [id=/subscriptions/a1e01a15-61aa-4f25-aa66-...rkSecurityGroups/nsg-new-name-for-test, 10s elapsed]
+azurerm_network_security_group.tfub_nsg: Destruction complete after 11s

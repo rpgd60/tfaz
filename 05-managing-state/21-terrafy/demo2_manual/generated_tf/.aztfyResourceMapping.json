@@ -1,0 +1,14 @@
+{
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test": "azurerm_resource_group.res-11",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Compute/disks/terrafy-test_DataDisk_0": "azurerm_managed_disk.res-5",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Compute/sshPublicKeys/terrafy-test_key": "azurerm_ssh_public_key.res-0",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Compute/virtualMachines/terrafy-test": "",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/networkInterfaces/terrafy-test473": "azurerm_network_interface.res-10",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/networkSecurityGroups/terrafy-test-nsg": "azurerm_network_security_group.res-1",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/networkSecurityGroups/terrafy-test-nsg/securityRules/HTTP": "azurerm_network_security_rule.res-6",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/networkSecurityGroups/terrafy-test-nsg/securityRules/HTTPS": "azurerm_network_security_rule.res-7",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/networkSecurityGroups/terrafy-test-nsg/securityRules/SSH": "azurerm_network_security_rule.res-8",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/publicIPAddresses/terrafy-test-ip": "azurerm_public_ip.res-2",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/virtualNetworks/terrafy-test-vnet": "azurerm_virtual_network.res-3",
+	"/subscriptions/86b2fde3-ca70-4813-8ef3-ade20d2666d3/resourceGroups/terrafy-test/providers/Microsoft.Network/virtualNetworks/terrafy-test-vnet/subnets/default": "azurerm_subnet.res-9"
+}
