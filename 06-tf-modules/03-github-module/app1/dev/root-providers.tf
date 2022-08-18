@@ -14,5 +14,5 @@ provider "azurerm" {
     # https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/features-block
   }
   environment     = "public"
-  subscription_id = "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3"
+  # subscription_id = "xxxxx"
 }
