@@ -1,6 +1,6 @@
 variable "region" {
-  type        = string
-  default     = "westeurope"
+  type = string
+  # default     = "westeurope"
   description = "Region for Location of the resource group."
 
   validation {
@@ -60,6 +60,7 @@ variable "ssh_pub_key_file" {
   type        = string
   description = "file for SSH public key"
   default     = "~/.ssh/mykey.pub"
+  
 }
 
 

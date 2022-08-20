@@ -1,4 +1,4 @@
-region      = "eastus"
+region      = "westeurope"
 environment = "dev"
 cost_center = "PI-31416"
 # vm_size     = "Standard_DS1_v2"

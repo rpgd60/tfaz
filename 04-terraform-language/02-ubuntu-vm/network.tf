@@ -21,9 +21,23 @@ resource "azurerm_public_ip" "tfub_publicip" {
   allocation_method   = "Dynamic"
   domain_name_label   = local.dns_name
   tags                = local.tags
+  lifecycle {
+    create_before_destroy = true
+  }
 
 }
+resource "azurerm_public_ip" "tfub_publicip2" {
+  name                = "pip-${local.name_suffix2}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  allocation_method   = "Dynamic"
+  domain_name_label   = local.dns_name2
+  tags                = local.tags
+  lifecycle {
+    create_before_destroy = true
+  }
 
+}
 resource "azurerm_network_security_group" "tfub_nsg" {
   name                = "nsg-${local.name_suffix}"
   location            = azurerm_resource_group.rg.location
@@ -87,8 +101,26 @@ resource "azurerm_network_interface" "tfub_nic" {
   tags = local.tags
 }
 
+resource "azurerm_network_interface" "tfub_nic2" {
+  name                = "nic-${local.name_suffix2}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+
+  ip_configuration {
+    name                          = "NicConfig"
+    subnet_id                     = azurerm_subnet.tfub_subnet.id
+    private_ip_address_allocation = "Dynamic"
+    public_ip_address_id          = azurerm_public_ip.tfub_publicip2.id
+  }
+  tags = local.tags
+}
+
 # Connect the security group to the network interface
 resource "azurerm_network_interface_security_group_association" "example" {
   network_interface_id      = azurerm_network_interface.tfub_nic.id
+  network_security_group_id = azurerm_network_security_group.tfub_nsg.id
+}
+resource "azurerm_network_interface_security_group_association" "example2" {
+  network_interface_id      = azurerm_network_interface.tfub_nic2.id
   network_security_group_id = azurerm_network_security_group.tfub_nsg.id
 }

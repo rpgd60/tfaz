@@ -1,8 +1,4 @@
-variable "entity_type_name" {
-  object(
-    string
-  )
-}
+
 
 
 resource "azurerm_resource_group" "rg_test_map" {
@@ -14,13 +10,13 @@ resource "azurerm_resource_group" "rg_test_map" {
   }
 
   location = "westeurope"
-  name     = "rg-test-${each.key}-${each.value}"
+  name     = "rg-test-2-${each.key}-${each.value}"
 }
 
 resource "azurerm_resource_group" "rg_test_strings" {
   for_each = toset(["Finance", "IT", "HR"])
   location = "westeurope"
-  name     = "rg-test-${each.value}"
+  name     = "rg-test-2-${each.value}"
 }
 
 
