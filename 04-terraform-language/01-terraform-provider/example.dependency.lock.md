@@ -125,7 +125,7 @@ version control system if they represent changes you intended to make.
 Terraform has been successfully initialized!
 
 ## Contents of lock file
-```t
+
 rafa@rp3:01-terraform-provider$ cat .terraform.lock.hcl
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
@@ -145,4 +145,3 @@ provider "registry.terraform.io/hashicorp/azurerm" {
     "h1:JP1ql3IvCpG1f88Zfb+W0Gm9kRKHg2c+VXOfVKpHZTY=",
   ]
 }
-```

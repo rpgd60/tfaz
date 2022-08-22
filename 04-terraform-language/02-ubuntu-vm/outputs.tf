@@ -27,8 +27,3 @@ output "name_suffix" {
   description = "Comon suffix used for resource naming"
   value       = local.name_suffix
 }
-
-output "public_ip2" {
-  description = "Public IP assigned to the VM"
-  value       = azurerm_linux_virtual_machine.tfub_vm2.public_ip_address
-}

@@ -1,4 +1,4 @@
-region      = "eastus"
+region      = "westeurope"
 environment = "dev"
 cost_center = "PI-31416"
 # vm_size     = "Standard_DS1_v2"
@@ -7,7 +7,6 @@ cost_center = "PI-31416"
 
 # project = "apollo"
 
-# Windows
-# ssh_pub_key_file = "C:/Users/bea/.ssh/id_rsa.pub"
-# Unix
-  ssh_pub_key_file = "~/.ssh/mykey.pub"
+app_name = "ctest27"
+num_vms = 3
+create_ansible_hosts = true

@@ -1,29 +1,17 @@
 # Configure the Azure provider
 terraform {
-  required_version = ">= 1.2.0" ## Required version of terraform itself
-  # required_version = "0.14"
-
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.0" ## any version 3.x  (in production, better pin a minor version)
-      # version = "3.11.0"
-    }
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 4.25.0"
-    }
-
-    random = {
-      source  = "hashicorp/random"
-      version = "~>3.3.2"
     }
   }
+  required_version = ">= 1.2.0" ## Required version of terraform itself
 }
 
 provider "azurerm" {
   features {}
-  # subscription_id = "xxxxx"
+  subscription_id = "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3"
 
 }
 
@@ -64,8 +52,8 @@ resource "azurerm_linux_virtual_machine" "tf1" {
   resource_group_name = azurerm_resource_group.tf1_rg.name
   location            = azurerm_resource_group.tf1_rg.location
   ## watch out for capitalization of "DS1_v2"  
-  size           = "Standard_DS1_v2" ## many of these values should come from variables (more later)
-  admin_username = "adminuser"
+  size                = "Standard_DS1_v2" ## many of these values should come from variables (more later)
+  admin_username      = "adminuser"
   network_interface_ids = [
     azurerm_network_interface.tf1.id,
   ]

@@ -1,21 +1,24 @@
-
 variable "region" {
   type        = string
   default     = "westeurope"
   description = "Region for Location of the resource group."
-  
+
   validation {
-    condition = contains(["eastus", "westeurope"], var.region)
+    condition     = contains(["eastus", "westeurope"], var.region)
     error_message = "Err: Region not allowed."
   }
 }
 
-
 variable "app_name" {
   type        = string
-  default     = "ubuntu-02"
   description = "Application / Workload name"
 }
+
+# variable "project" {
+#   type        = string
+#   default     = "acme"
+#   description = "Project name"
+# }
 
 variable "environment" {
   type        = string
@@ -23,7 +26,7 @@ variable "environment" {
   description = "Workload environment"
 
   validation {
-    condition     = can(regex("^dev$|^prod$|^test$", var.environment))
+    condition     = can(regex("^dev$|^prod$", var.environment))
     error_message = "Err: invalid environment."
   }
 
@@ -58,9 +61,12 @@ variable "ssh_pub_key_file" {
   default     = "~/.ssh/mykey.pub"
 }
 
-variable "dns_name" {
-  type        = string
-  default     = "vm-test1"
-  description = "Host name"
+variable "create_ansible_hosts" {
+  type    = bool
+  default = false
 }
 
+variable "num_vms" {
+  type    = number
+  default = 0
+}

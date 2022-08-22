@@ -21,5 +21,5 @@ provider "azurerm" {
     }
   }
   environment     = "public"
-  # subscription_id = "xxxxx"
+  subscription_id = "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3"
 }

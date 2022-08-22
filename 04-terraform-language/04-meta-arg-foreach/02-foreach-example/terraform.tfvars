@@ -14,4 +14,3 @@ containers = [
 storage_base_name = "foobar"
 
 region = "westeurope"
-app_name = "rafa333"

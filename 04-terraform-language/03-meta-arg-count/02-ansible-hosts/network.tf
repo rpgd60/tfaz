@@ -15,11 +15,12 @@ resource "azurerm_subnet" "tfub_subnet" {
 }
 
 resource "azurerm_public_ip" "tfub_publicip" {
-  name                = "pip-${local.name_suffix}"
+  count               = var.num_vms
+  name                = "pip-${local.name_suffix}-${count.index}"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   allocation_method   = "Dynamic"
-  domain_name_label   = local.dns_name
+  domain_name_label   = "${local.dns_name}-${count.index}"
   tags                = local.tags
 
 }
@@ -74,7 +75,8 @@ resource "azurerm_network_security_rule" "icmp" {
 # }
 
 resource "azurerm_network_interface" "tfub_nic" {
-  name                = "nic-${local.name_suffix}"
+  count               = var.num_vms
+  name                = "nic-${local.name_suffix}-${count.index}"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
 
@@ -82,13 +84,14 @@ resource "azurerm_network_interface" "tfub_nic" {
     name                          = "NicConfig"
     subnet_id                     = azurerm_subnet.tfub_subnet.id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id          = azurerm_public_ip.tfub_publicip.id
+    public_ip_address_id          = azurerm_public_ip.tfub_publicip[count.index].id
   }
   tags = local.tags
 }
 
-# Connect the security group to the network interface
+# Connect the security group to the network interfaces
 resource "azurerm_network_interface_security_group_association" "example" {
-  network_interface_id      = azurerm_network_interface.tfub_nic.id
+  count                     = var.num_vms
+  network_interface_id      = azurerm_network_interface.tfub_nic[count.index].id
   network_security_group_id = azurerm_network_security_group.tfub_nsg.id
 }

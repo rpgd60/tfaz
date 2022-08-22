@@ -1,0 +1,3140 @@
+[
+  {
+    "authorization": {
+      "action": "Microsoft.Resources/subscriptions/resourcegroups/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "a392104a-4b43-4bb0-b04b-fd6e397d36ee",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:47.265587+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/events/a392104a-4b43-4bb0-b04b-fd6e397d36ee/ticks/637966672672655873",
+    "level": "Informational",
+    "operationId": "ca6fc96c-087c-4efa-8d83-0a413cd5d80a",
+    "operationName": {
+      "localizedValue": "Delete resource group",
+      "value": "Microsoft.Resources/subscriptions/resourcegroups/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Resources/subscriptions/resourcegroups/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft Resources",
+      "value": "Microsoft.Resources"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Resources/subscriptions/resourcegroups",
+      "value": "Microsoft.Resources/subscriptions/resourcegroups"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:29:19.130997+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Resources/subscriptions/resourcegroups/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "deb19d22-121a-43b2-b699-eae7e210a595",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:44.465625+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/events/deb19d22-121a-43b2-b699-eae7e210a595/ticks/637966672644656259",
+    "level": "Informational",
+    "operationId": "ca6fc96c-087c-4efa-8d83-0a413cd5d80a",
+    "operationName": {
+      "localizedValue": "Delete resource group",
+      "value": "Microsoft.Resources/subscriptions/resourcegroups/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Resources/subscriptions/resourcegroups/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft Resources",
+      "value": "Microsoft.Resources"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Resources/subscriptions/resourcegroups",
+      "value": "Microsoft.Resources/subscriptions/resourcegroups"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:29:19.129998+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "5837cee5-f9f6-4bf1-b2bf-cb2f3cf2d739",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:40.355619+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/events/5837cee5-f9f6-4bf1-b2bf-cb2f3cf2d739/ticks/637966672603556195",
+    "level": "Informational",
+    "operationId": "74abdbd9-cc17-4140-9fd1-48a01436efd4",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network",
+      "value": "Microsoft.Network/virtualNetworks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks",
+      "value": "Microsoft.Network/virtualNetworks"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:29:18.138347+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "9190bce3-bd1e-45df-9ff7-c6f971cf56c4",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:33.593530+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/events/9190bce3-bd1e-45df-9ff7-c6f971cf56c4/ticks/637966672535935301",
+    "level": "Informational",
+    "operationId": "e0fb330c-6780-4c57-abe6-85af3c27ea57",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network",
+      "value": "Microsoft.Network/virtualNetworks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks",
+      "value": "Microsoft.Network/virtualNetworks"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:32.136893+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/disks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "d254a03c-1a82-470e-b9ca-dca4ec2c9e04",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:32.971978+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus/events/d254a03c-1a82-470e-b9ca-dca4ec2c9e04/ticks/637966672529719787",
+    "level": "Informational",
+    "operationId": "d07ccfed-1d70-4808-a8f8-79bfb9a226c5",
+    "operationName": {
+      "localizedValue": "Delete Disk",
+      "value": "Microsoft.Compute/disks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/disks/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/disks",
+      "value": "Microsoft.Compute/disks"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:38.101522+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "7b7d0d57-a4ce-4dd8-ab39-eabd7b9be9b2",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:32.702893+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/events/7b7d0d57-a4ce-4dd8-ab39-eabd7b9be9b2/ticks/637966672527028935",
+    "level": "Informational",
+    "operationId": "e0fb330c-6780-4c57-abe6-85af3c27ea57",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network",
+      "value": "Microsoft.Network/virtualNetworks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks",
+      "value": "Microsoft.Network/virtualNetworks"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:32.136893+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/subnets/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "2ded891f-0a70-41da-b78e-089c03b20a4f",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:32.556869+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus/events/2ded891f-0a70-41da-b78e-089c03b20a4f/ticks/637966672525568695",
+    "level": "Informational",
+    "operationId": "d4cb8cf7-5976-4e3b-850f-c7a60a2a1f47",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network Subnet",
+      "value": "Microsoft.Network/virtualNetworks/subnets/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/subnets/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks/subnets",
+      "value": "Microsoft.Network/virtualNetworks/subnets"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:29:18.127152+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/publicIPAddresses/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "2c02199d-45f0-4637-8296-66f28592be02",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:28.839634+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus/events/2c02199d-45f0-4637-8296-66f28592be02/ticks/637966672488396343",
+    "level": "Informational",
+    "operationId": "40029236-b278-4505-9ac5-c914cb21963c",
+    "operationName": {
+      "localizedValue": "Delete Public Ip Address",
+      "value": "Microsoft.Network/publicIPAddresses/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/publicIPAddresses/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/publicIPAddresses",
+      "value": "Microsoft.Network/publicIPAddresses"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:52.213790+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkInterfaces/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "612ad791-810d-4a7c-80c5-3fb833c939f7",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:23.287194+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/events/612ad791-810d-4a7c-80c5-3fb833c939f7/ticks/637966672432871942",
+    "level": "Informational",
+    "operationId": "9e061514-5aa1-4d43-be40-d8e8c3aba71d",
+    "operationName": {
+      "localizedValue": "Delete Network Interface",
+      "value": "Microsoft.Network/networkInterfaces/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkInterfaces/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkInterfaces",
+      "value": "Microsoft.Network/networkInterfaces"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:29:09.109707+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/publicIPAddresses/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "daccc0b4-008f-4ff2-8662-84a61ead63e5",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:22.298182+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus/events/daccc0b4-008f-4ff2-8662-84a61ead63e5/ticks/637966672422981828",
+    "level": "Informational",
+    "operationId": "dee96968-7366-4066-ba7a-bebaa49bcd9f",
+    "operationName": {
+      "localizedValue": "Delete Public Ip Address",
+      "value": "Microsoft.Network/publicIPAddresses/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/publicIPAddresses/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/publicIPAddresses",
+      "value": "Microsoft.Network/publicIPAddresses"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:29:12.111593+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/subnets/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "698e7bbf-83ea-49fd-9702-2bf782f9a39b",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:21.693543+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus/events/698e7bbf-83ea-49fd-9702-2bf782f9a39b/ticks/637966672416935431",
+    "level": "Informational",
+    "operationId": "ebc85cf8-e32c-4689-b2a0-22db61bdf233",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network Subnet",
+      "value": "Microsoft.Network/virtualNetworks/subnets/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/subnets/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks/subnets",
+      "value": "Microsoft.Network/virtualNetworks/subnets"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:38.131719+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "24bf29ce-21ba-4a6d-8fac-423be7451b84",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:21.331252+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/events/24bf29ce-21ba-4a6d-8fac-423be7451b84/ticks/637966672413312523",
+    "level": "Informational",
+    "operationId": "76f1c0fc-1e4b-4efa-891e-eaf92a234c71",
+    "operationName": {
+      "localizedValue": "Delete Network Security Group",
+      "value": "Microsoft.Network/networkSecurityGroups/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups",
+      "value": "Microsoft.Network/networkSecurityGroups"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:55.141534+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/virtualNetworks/subnets/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "a81a930b-967e-4af1-88b3-ac906f5edd15",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:21.271697+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus/events/a81a930b-967e-4af1-88b3-ac906f5edd15/ticks/637966672412716978",
+    "level": "Informational",
+    "operationId": "ebc85cf8-e32c-4689-b2a0-22db61bdf233",
+    "operationName": {
+      "localizedValue": "Delete Virtual Network Subnet",
+      "value": "Microsoft.Network/virtualNetworks/subnets/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/virtualNetworks/subnets/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/virtualNetworks/subnets",
+      "value": "Microsoft.Network/virtualNetworks/subnets"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:38.131719+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/publicIPAddresses/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "986f5799-632d-4342-b510-1772288df4e8",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:21.047488+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus/events/986f5799-632d-4342-b510-1772288df4e8/ticks/637966672410474887",
+    "level": "Informational",
+    "operationId": "dee96968-7366-4066-ba7a-bebaa49bcd9f",
+    "operationName": {
+      "localizedValue": "Delete Public Ip Address",
+      "value": "Microsoft.Network/publicIPAddresses/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/publicIPAddresses/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/publicIPAddresses",
+      "value": "Microsoft.Network/publicIPAddresses"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:29:12.111593+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkInterfaces/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "63d25ed2-ad0e-486c-a638-6441ea244862",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:16.243489+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/events/63d25ed2-ad0e-486c-a638-6441ea244862/ticks/637966672362434894",
+    "level": "Informational",
+    "operationId": "6ddb9c68-c7f9-45db-8623-44b0a10e76e4",
+    "operationName": {
+      "localizedValue": "Delete Network Interface",
+      "value": "Microsoft.Network/networkInterfaces/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkInterfaces/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkInterfaces",
+      "value": "Microsoft.Network/networkInterfaces"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:42.131933+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "9d869704-711c-43c7-94d2-7cb3c3df62e7",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:16.039381+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/events/9d869704-711c-43c7-94d2-7cb3c3df62e7/ticks/637966672360393814",
+    "level": "Informational",
+    "operationId": "f80de767-43af-4664-8c86-18e7b3e5aeeb",
+    "operationName": {
+      "localizedValue": "Delete Network Security Group",
+      "value": "Microsoft.Network/networkSecurityGroups/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups",
+      "value": "Microsoft.Network/networkSecurityGroups"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:31.115771+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkInterfaces/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "6b416131-2ab6-4667-ad75-b8492596f529",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:15.337239+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/events/6b416131-2ab6-4667-ad75-b8492596f529/ticks/637966672353372399",
+    "level": "Informational",
+    "operationId": "6ddb9c68-c7f9-45db-8623-44b0a10e76e4",
+    "operationName": {
+      "localizedValue": "Delete Network Interface",
+      "value": "Microsoft.Network/networkInterfaces/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkInterfaces/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkInterfaces",
+      "value": "Microsoft.Network/networkInterfaces"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:42.131933+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "3ac42ed0-392e-4ac7-8c9f-34d5814b91aa",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:15.069624+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/events/3ac42ed0-392e-4ac7-8c9f-34d5814b91aa/ticks/637966672350696246",
+    "level": "Informational",
+    "operationId": "f80de767-43af-4664-8c86-18e7b3e5aeeb",
+    "operationName": {
+      "localizedValue": "Delete Network Security Group",
+      "value": "Microsoft.Network/networkSecurityGroups/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups",
+      "value": "Microsoft.Network/networkSecurityGroups"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:31.115771+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkInterfaces/write",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "ec0ec764-b704-44a8-bcbf-159d82ce9bcc",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:14.742733+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "PUT",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/events/ec0ec764-b704-44a8-bcbf-159d82ce9bcc/ticks/637966672347427330",
+    "level": "Informational",
+    "operationId": "7111cbdf-c820-4513-8482-cc0aac2ededc",
+    "operationName": {
+      "localizedValue": "Create or Update Network Interface",
+      "value": "Microsoft.Network/networkInterfaces/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkInterfaces/write",
+      "responseBody": "{\"name\":\"nic-ubuntu-02-dev-eastus\",\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus\",\"etag\":\"W/\\\"972cd7bf-3e1f-4237-964b-2986f05ab5e7\\\"\",\"tags\":\"******\",\"properties\":{\"provisioningState\":\"Succeeded\",\"resourceGuid\":\"25b6d833-2186-44d9-99ac-240544cab9e3\",\"ipConfigurations\":[{\"name\":\"NicConfig\",\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/ipConfigurations/NicConfig\",\"etag\":\"W/\\\"972cd7bf-3e1f-4237-964b-2986f05ab5e7\\\"\",\"type\":\"Microsoft.Network/networkInterfaces/ipConfigurations\",\"properties\":{\"provisioningState\":\"Succeeded\",\"privateIPAddress\":\"10.0.1.4\",\"privateIPAllocationMethod\":\"Dynamic\",\"publicIPAddress\":{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus\"},\"subnet\":{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus\"},\"primary\":true,\"privateIPAddressVersion\":\"IPv4\"}}],\"dnsSettings\":{\"dnsServers\":[],\"appliedDnsServers\":[],\"internalDomainNameSuffix\":\"dkgr3jjrtvcevduirw1hziaskh.bx.internal.cloudapp.net\"},\"macAddress\":\"00-22-48-21-41-7E\",\"enableAcceleratedNetworking\":false,\"enableIPForwarding\":false,\"hostedWorkloads\":[],\"tapConfigurations\":[]},\"type\":\"Microsoft.Network/networkInterfaces\",\"location\":\"eastus\"}",
+      "serviceRequestId": null,
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkInterfaces",
+      "value": "Microsoft.Network/networkInterfaces"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:42.131933+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkInterfaces/write",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "1190552c-0bd4-4ff6-9c91-e4bba2d40af4",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:12.459185+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "PUT",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/events/1190552c-0bd4-4ff6-9c91-e4bba2d40af4/ticks/637966672324591854",
+    "level": "Informational",
+    "operationId": "7111cbdf-c820-4513-8482-cc0aac2ededc",
+    "operationName": {
+      "localizedValue": "Create or Update Network Interface",
+      "value": "Microsoft.Network/networkInterfaces/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkInterfaces/write",
+      "requestbody": "{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus\",\"location\":\"eastus\",\"properties\":{\"dnsSettings\":{\"dnsServers\":[]},\"enableAcceleratedNetworking\":false,\"enableIPForwarding\":false,\"ipConfigurations\":[{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus/ipConfigurations/NicConfig\",\"name\":\"NicConfig\",\"properties\":{\"primary\":true,\"privateIPAddress\":\"10.0.1.4\",\"privateIPAddressVersion\":\"IPv4\",\"privateIPAllocationMethod\":\"Dynamic\",\"publicIPAddress\":{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/publicIPAddresses/pip-ubuntu-02-dev-eastus\"},\"subnet\":{\"id\":\"/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/virtualNetworks/vnet-ubuntu-02-dev-eastus/subnets/snet-ubuntu-02-dev-eastus\"}},\"type\":\"Microsoft.Network/networkInterfaces/ipConfigurations\"}],\"networkSecurityGroup\":null,\"nicType\":\"Standard\"},\"tags\":\"******\"}"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkInterfaces/nic-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkInterfaces",
+      "value": "Microsoft.Network/networkInterfaces"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:42.131933+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/disks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "7d2aa66b-c504-4e19-bf9d-7cb27ae8f25c",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:10.874123+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus/events/7d2aa66b-c504-4e19-bf9d-7cb27ae8f25c/ticks/637966672308741238",
+    "level": "Informational",
+    "operationId": "223961ae-f76b-49a2-816c-c59037e54249",
+    "operationName": {
+      "localizedValue": "Delete Disk",
+      "value": "Microsoft.Compute/disks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/disks/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/disks",
+      "value": "Microsoft.Compute/disks"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:28:59.140678+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/disks/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "bd915a37-bf0f-4986-b7a9-aa152a184a5a",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:09.528896+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus/events/bd915a37-bf0f-4986-b7a9-aa152a184a5a/ticks/637966672295288963",
+    "level": "Informational",
+    "operationId": "223961ae-f76b-49a2-816c-c59037e54249",
+    "operationName": {
+      "localizedValue": "Delete Disk",
+      "value": "Microsoft.Compute/disks/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/disks/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/disks/osd-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/disks",
+      "value": "Microsoft.Compute/disks"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:59.140678+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "8c8e2ec1-8658-44cd-ba87-6ff5ca740e8a",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:27:02.328766+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/8c8e2ec1-8658-44cd-ba87-6ff5ca740e8a/ticks/637966672223287669",
+    "level": "Informational",
+    "operationId": "7c3375ff-afb4-4b26-a286-e1d9e881ab6c",
+    "operationName": {
+      "localizedValue": "Delete Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourcegroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:55.141534+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "0e497887-c49c-4bbc-bcf9-15333e05d2a4",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:32.942003+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH/events/0e497887-c49c-4bbc-bcf9-15333e05d2a4/ticks/637966671929420032",
+    "level": "Informational",
+    "operationId": "f168002c-0a01-4200-bc24-450fc23dee38",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:11.190479+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "b97e8386-1b99-42fe-89ca-8b30ba84da02",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:32.911622+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp/events/b97e8386-1b99-42fe-89ca-8b30ba84da02/ticks/637966671929116226",
+    "level": "Informational",
+    "operationId": "b90c48a0-2dab-4338-bca3-3b97fb22875a",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:09.138346+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/powerOff/action",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "db7248a3-d5a5-46f3-9ee2-86f3229eda13",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:28.806858+00:00",
+    "httpRequest": null,
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/db7248a3-d5a5-46f3-9ee2-86f3229eda13/ticks/637966671888068585",
+    "level": "Informational",
+    "operationId": "62e2ceca-1c73-4e03-8760-745d75f88008",
+    "operationName": {
+      "localizedValue": "Power Off Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/powerOff/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/powerOff/action"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:28:18.088980+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "c9d29113-3590-4f03-81ba-7f4720f17ddc",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:28.693563+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/c9d29113-3590-4f03-81ba-7f4720f17ddc/ticks/637966671886935632",
+    "level": "Informational",
+    "operationId": "ab80ffae-202c-4796-9b2f-1814c7e1bc3e",
+    "operationName": {
+      "localizedValue": "Delete Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:27:28.132558+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "07a551af-5c98-4df8-aa11-9d79d7cab0a4",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:27.505110+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/07a551af-5c98-4df8-aa11-9d79d7cab0a4/ticks/637966671875051102",
+    "level": "Informational",
+    "operationId": "ab80ffae-202c-4796-9b2f-1814c7e1bc3e",
+    "operationName": {
+      "localizedValue": "Delete Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:27:28.132558+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/powerOff/action",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "7280966b-3e48-4ddf-89b7-da0cfdacd17b",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:22.017719+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/7280966b-3e48-4ddf-89b7-da0cfdacd17b/ticks/637966671820177195",
+    "level": "Informational",
+    "operationId": "f04ed461-1b23-44f0-9ca9-34d9971faeea",
+    "operationName": {
+      "localizedValue": "Power Off Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/powerOff/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/powerOff/action",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:27:28.131558+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "a8303370-6701-4404-bc20-26be2602b921",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:21.881343+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH/events/a8303370-6701-4404-bc20-26be2602b921/ticks/637966671818813438",
+    "level": "Informational",
+    "operationId": "767c9034-2a07-496f-aaa7-37c13606f01a",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:27:39.112029+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "e99e7c52-2705-47b5-8ac5-39d9b4cde4cb",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:21.678222+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp/events/e99e7c52-2705-47b5-8ac5-39d9b4cde4cb/ticks/637966671816782226",
+    "level": "Informational",
+    "operationId": "b81b528d-b905-4b5e-858f-451f13cb83c3",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "serviceRequestId": null,
+      "statusCode": "Accepted"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Accepted",
+      "value": "Accepted"
+    },
+    "subStatus": {
+      "localizedValue": "Accepted (HTTP Status Code: 202)",
+      "value": "Accepted"
+    },
+    "submissionTimestamp": "2022-08-21T08:27:39.112029+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Compute/virtualMachines/powerOff/action",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "1b97c751-31ca-4d0c-ab39-c5ef6de0b693",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:21.563825+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus/events/1b97c751-31ca-4d0c-ab39-c5ef6de0b693/ticks/637966671815638253",
+    "level": "Informational",
+    "operationId": "f04ed461-1b23-44f0-9ca9-34d9971faeea",
+    "operationName": {
+      "localizedValue": "Power Off Virtual Machine",
+      "value": "Microsoft.Compute/virtualMachines/powerOff/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Compute/virtualMachines/powerOff/action"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Compute/virtualMachines/vm-ubuntu-02-dev-eastus",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Compute",
+      "value": "Microsoft.Compute"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Compute/virtualMachines",
+      "value": "Microsoft.Compute/virtualMachines"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:27:28.131558+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "07d16fd9-5c33-4f01-8410-cb6cc547484c",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:21.240028+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH/events/07d16fd9-5c33-4f01-8410-cb6cc547484c/ticks/637966671812400280",
+    "level": "Informational",
+    "operationId": "767c9034-2a07-496f-aaa7-37c13606f01a",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-SSH",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:27:39.112029+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "role": null,
+      "scope": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp"
+    },
+    "caller": "rpgd60@live.co.uk",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "channels": "Operation",
+    "claims": {
+      "aio": "AWQAm/8TAAAAdthRau3wc9lf46/KZlGqrfBRnzX63eELeJEIuESC2+NJ6328DWJj3IEPRdYiH+iZ2C7tHU6+uMRGQGKaF4wtAzg5wN6ARulZZKh0/DzzO9IjGKfV5XyEoNHbLkSCsiII",
+      "altsecid": "1:live.com:0003400199E94B71",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "aud": "https://management.azure.com",
+      "exp": "1661070885",
+      "groups": "ba89e887-3afb-47b3-aa52-877ec08cc1fa",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "d20a72cd-f646-4b58-b1c9-6cc5ca58d80d",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Rafael",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#rpgd60@live.co.uk",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "K9FxzVJL6sIncRB2ncceBlggGF9JyxSrHt4dr7cFSpM",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Portillo",
+      "iat": "1661065718",
+      "ipaddr": "2.138.128.242",
+      "iss": "https://sts.windows.net/c1db2a3b-80ef-40a4-9ed4-8747c654f5bd/",
+      "name": "Rafael Portillo",
+      "nbf": "1661065718",
+      "puid": "1003200206EEA7A1",
+      "rh": "0.AXkAOyrbwe-ApECe1IdHxlT1vUZIf3kAutdPukPawfj2MBOUAIU.",
+      "uti": "mF0hlbS14kiyt-TIPvIZAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10,b79fbf4d-3ef9-4689-8143-76b194e85509",
+      "xms_tcdt": "1655551944"
+    },
+    "correlationId": "7f5b4d88-60b1-e826-b957-8129d1bbcb53",
+    "description": "",
+    "eventDataId": "4b082a39-eb85-46da-9dd3-6f0ee1ee51d0",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2022-08-21T08:26:21.224448+00:00",
+    "httpRequest": {
+      "clientIpAddress": "2.138.128.242",
+      "clientRequestId": "",
+      "method": "DELETE",
+      "uri": null
+    },
+    "id": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp/events/4b082a39-eb85-46da-9dd3-6f0ee1ee51d0/ticks/637966671812244488",
+    "level": "Informational",
+    "operationId": "b81b528d-b905-4b5e-858f-451f13cb83c3",
+    "operationName": {
+      "localizedValue": "Delete Security Rule",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "properties": {
+      "entity": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+      "eventCategory": "Administrative",
+      "hierarchy": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+      "message": "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+    },
+    "resourceGroup": "rg-ubuntu-02-dev-eastus",
+    "resourceGroupName": "rg-ubuntu-02-dev-eastus",
+    "resourceId": "/subscriptions/a1e01a15-61aa-4f25-aa66-6d6e8a913dc3/resourceGroups/rg-ubuntu-02-dev-eastus/providers/Microsoft.Network/networkSecurityGroups/nsg-ubuntu-02-dev-eastus/securityRules/nsgr-icmp",
+    "resourceProviderName": {
+      "localizedValue": "Microsoft.Network",
+      "value": "Microsoft.Network"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Network/networkSecurityGroups/securityRules",
+      "value": "Microsoft.Network/networkSecurityGroups/securityRules"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2022-08-21T08:27:39.112029+00:00",
+    "subscriptionId": "a1e01a15-61aa-4f25-aa66-6d6e8a913dc3",
+    "tenantId": "c1db2a3b-80ef-40a4-9ed4-8747c654f5bd"
+  }
+]

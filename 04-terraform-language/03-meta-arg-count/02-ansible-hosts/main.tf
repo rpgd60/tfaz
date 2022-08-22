@@ -24,20 +24,21 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_linux_virtual_machine" "tfub_vm" {
+  count = var.num_vms
   ## depends_on to prevent desttroy errors  
   ## destroying VM requies 
   ## See also https://azapril.dev/2020/05/12/terraform-depends_on/ 
   depends_on = [
     azurerm_network_interface_security_group_association.example
   ]
-  name                  = "vm-${local.name_suffix}"
+  name                  = "vm-${local.name_suffix}-${count.index}"
   location              = azurerm_resource_group.rg.location
   resource_group_name   = azurerm_resource_group.rg.name
-  network_interface_ids = [azurerm_network_interface.tfub_nic.id]
+  network_interface_ids = [azurerm_network_interface.tfub_nic[count.index].id]
   size                  = var.vm_size
 
   os_disk {
-    name                 = "osd-${local.name_suffix}"
+    name                 = "osd-${local.name_suffix}-${count.index}"
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }

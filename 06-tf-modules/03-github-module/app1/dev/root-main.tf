@@ -1,5 +1,4 @@
-# First module "call"
-### Note we can call the module invocation with any name - not related at all with actual module name
+
 
 locals {
   name_suffix = "${var.app_name}-${var.environment}-${var.region}"
@@ -10,7 +9,8 @@ locals {
     ApplicationName = var.app_name
   }
 }
-
+# First module "call"
+### Note we can call the module invocation with any name - not related at all with actual module name
 module "static_website" {
   # source = "../../modules/azure-static-website"
   source = "git@github.com:rpgd60/tf-azure-webstatic.git?ref=1.0.0"
